@@ -1,0 +1,21 @@
+[project]
+name = "ledscroll"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Sergey Tuchkin", email = "tuchkin@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "bdflib>=2.1.0",
+    "docstring-parser>=0.16",
+    "pillow>=11.2.1",
+]
+
+[project.scripts]
+ledscroll = "ledscroll:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

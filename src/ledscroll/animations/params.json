@@ -1,0 +1,37 @@
+{
+    "flashing_text": {
+        "font": "fonts/8x13B.bdf",
+        "total_duration": 2000,
+        "cycle_duration": 200,
+        "colors": [
+            [100, 0, 0],
+            [255, 0, 0],
+            [100, 0, 0],
+            [0, 0, 0]
+        ]
+    },
+    "static_text": {
+        "font": "fonts/8x13.bdf",
+        "duration": 3000
+    },
+    "slide_text": {
+        "font": "fonts/8x13.bdf",
+        "step_duration": 40,
+        "slide_duration": 200,
+        "pause_duration": 1500
+    },
+    "scrolling_text": {
+        "font": "fonts/8x13.bdf",
+        "step_duration": 40,
+        "text_color": [255, 0, 0]
+    },
+    "flashing_border": {
+    },
+    "running_dots_border": {
+    },
+    "police_lights_border": {
+        "cycle_duration": 500
+    },
+    "pulsing_border": {
+    }
+}
