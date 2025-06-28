@@ -1,2 +1,4 @@
+from ledscroll.cli import main as cli_main
+
 def main() -> None:
-    print("Hello from ledscroll!")
+    cli_main()
